@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algo_Challenge2"/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-05 12:30:43 "/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLTlPMTFBRTI7MjAyNi0wMy0wNTsiMTA6NDg6NDEgIjsyNDgx"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLTlPMTFBRTI7MjAyNi0wMy0wNTsiMTI6MzA6NDMgIjsxOzI1ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price" type="Integer" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <input variable="age"/>
+            <if expression="age&lt;12">
+                <then>
+                    <assign variable="price" expression="20"/>
+                    <output expression="&quot;Special: Children's Menu included!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="age&gt;=12 &amp;&amp; age&lt;=18">
+                        <then/>
+                        <else>
+                            <if expression="age&gt;=60">
+                                <then>
+                                    <assign variable="price" expression="30"/>
+                                </then>
+                                <else>
+                                    <assign variable="price" expression="60"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
