@@ -42,6 +42,9 @@ switch($choix_langue){
             break;
 
 } */
+
+// Challenge numero 1 :
+
 /* $price_the=5;
 $student=false;
 // $x=(int)readline("entrez un nombre ");
@@ -54,6 +57,9 @@ if($quantite>=5){
     $total*=0.8;
     }
     echo"le total a payer est : " .$total."Dh" */
+
+// Challenge numero 2 :
+
     $age=5;
     if($age<=12){
         $price=20;
